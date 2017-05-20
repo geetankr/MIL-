@@ -16,9 +16,8 @@ filenames = dir(fullfile(image_folder, extn));
 total_images = numel(filenames);
 
 images = struct;
-
 for n = 1:total_images
     full_name= fullfile(image_folder, filenames(n).name);     
-    images(n).data = imread(full_name);            
+    images(n).data = (imread(full_name));            
 
 end
