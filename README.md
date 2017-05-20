@@ -1,2 +1,2 @@
 # MIL-
-Multiple Instance Learning 
+Multiple Instance Learning : image classification
