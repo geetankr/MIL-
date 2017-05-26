@@ -18,6 +18,6 @@ total_images = numel(filenames);
 images = struct;
 for n = 1:total_images
     full_name= fullfile(image_folder, filenames(n).name);     
-    images(n).data = imresize(imread(full_name),0.5);            
+    images(n).data = imresize((imread(full_name)),0.5);            
 
 end
